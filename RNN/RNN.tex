@@ -1,0 +1,76 @@
+\documentclass[10pt,onecolumn]{IEEEtran}
+%\usepackage[utf8]{inputenc}
+\usepackage{cite}
+\usepackage[numbers]{natbib}
+\usepackage{listings}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{hyperref}
+\usepackage{subcaption}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{color} %red, green, blue, yellow, cyan, magenta, black, white
+\definecolor{mygreen}{RGB}{28,172,0} % color values Red, Green, Blue
+\definecolor{mylilas}{RGB}{170,55,241}
+
+\title{What makes RNNs tick ??}
+\author{Madan Ravi Ganesh (ECE)}
+
+\begin{document}
+\maketitle
+\IEEEpeerreviewmaketitle
+Convolutional neural networks (CNNs), aka. dump and regress, are a formidable form of end to end gradient machines that are taking over rapidly in the various domains. 
+Indeed, their boom has coincided with that of high end GPUs with rapid processing power. 
+However, in their vanilla form, they stand unable to handle sequence data. These data form the next major barrier in various problem spaces and need to be handled effectively for CNNs to take the next great leap.
+Thus, born out of such need was the Recurrent Neural Network (RNN)~\ref{goller1996learning}. 
+
+% Add details about structure from diagram
+
+In its vanilla form, a basic RNN is characterized using the following equations,
+\begin{equation}
+s_t = f(Ux_t + Ws_{t-1})
+\label{eq:hidstate}
+\end{equation}
+
+\begin{equation}
+o_t = softmax(Vs_t)
+\label{eq:output}
+\end{equation}
+
+\begin{equation}
+E(y,\hat{y}) = -\sum_{t} y_t log(\hat{y_t})
+\label{eq:celoss}
+\end{equation}
+
+Notice the time dependence on each of these parameters, marked by the $t$ or $t-1$. This recursive formulation does not lend itself to an easy or simple back-propagation formula. Get ready to put your calculus hats on people!!
+
+The complete RNN system is parameterized by $U,V \text{and} W$. Hence, we need to find the gradients w.r.t. these parameters. 
+Based on \ref{eq:celoss}, we need to find $\frac{dE}{dV}, \frac{dE}{dW} \text{and} \frac{dE}{dU}$. Here, I dropped the time dependence parameters to make it easier to read.
+
+The first partial derivative that can be easily handled is $\frac{dE}{dV}$.
+\begin{align*}
+\frac{dE_t}{dV} = y_t * log(\hat{y_t}), \text{where} \\
+\hat{y_t} = softmax(Vs_t) \\
+if Vs_t = z_t \\
+\hat{y_t} = \frac{\exp{z^{i}_t}}{\sum{k=1}{K}z^{k}_t} \\ 
+\end{align*}
+
+Here, t is assumed to a specific time-step while z is an alias for $Vs_t$.
+\begin{equation}
+\frac{dE_t}{dV} = \frac{dE_t}{d\hat{y_t}}*\frac{d\hat{y_t}}{dz_t}*\frac{dz_t}{dV} 
+\end{equation}
+
+
+Expanding the first term yields,
+\begin{equation}
+\frac{dE_t}{d\hat{y_t}} = \frac{y_t}{\hat{y_t}}
+\end{equation}
+
+Expanding the second term yields,
+\begin{align*}
+
+\end{align*}
+
+\bibliography{references}
+\bibliographystyle{plainnat}
+
+\end{document}
