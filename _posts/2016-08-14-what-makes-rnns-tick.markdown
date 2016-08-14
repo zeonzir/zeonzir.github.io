@@ -13,7 +13,7 @@ However, in their vanilla form, they stand unable to handle sequence data. These
 \omega
 \end{equation}
 
-$\omega$
+$$\omega$$
 
 Jekyll also offers powerful support for code snippets:
 
