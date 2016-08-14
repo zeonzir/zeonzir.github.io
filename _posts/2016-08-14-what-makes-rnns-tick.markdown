@@ -9,7 +9,11 @@ Indeed, their boom has coincided with that of high end GPUs with rapid processin
  
 However, in their vanilla form, they stand unable to handle sequence data. These data form the next major barrier in various problem spaces and need to be handled effectively for CNNs to take the next great leap.
 
+\begin{equation}
+\omega
+\end{equation}
 
+$\omega$
 
 Jekyll also offers powerful support for code snippets:
 
