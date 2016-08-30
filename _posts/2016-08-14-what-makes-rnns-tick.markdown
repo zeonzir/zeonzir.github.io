@@ -11,7 +11,7 @@ However, in their vanilla form, they stand unable to handle sequence data. These
 Thus, born out of such need was the Recurrent Neural Network (RNN) (http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.49.1968&rep=rep1&type=pdf). 
 
 # Basic Structure
-The basic RNN cell is parameterized by 3 variables, $U, V \text{and} W$. Diagrammatically, it can be envisioned as shown below,
+The basic RNN cell is parameterized by 3 variables, $$U, V \text{and} W$$. Diagrammatically, it can be envisioned as shown below,
 
 It is completely characterized by its input, hidden and output states. In order to handle sequential data, these cells are unrolled 1 after the other in the fashion shown below,
 
