@@ -44,18 +44,24 @@
 
         <p  style="text-align:justify"> <strong>Efficient memory usage in deep learning:</strong> With ANN datasets and parameters spanning millions and billions in number, their applicability in real-world scenarios, often with restrictions on available memory or required throughput, is restricted. In trying to solve this disparity, I emphasize on methods that help reduce the storage/computation of activations, deep network compression, and other relevant areas.</p>
 
+        </section>
+
+        <section>
         <h2>Research Projects</h2>
         <h3> LILAC: Learning with Incremental Labels and Adaptive Compensation</h3>
         <p style="text-align:justify"> Common curriculum learning schemes impose "difficulty" as a metric to samples of a dataset and gradually increases the scale of difficult samples shown to a learner. In LILAC, we approach curriculum learning from the perspective that all labels are equally important and instead gradually introduce labels to the learner. Further, regularizing a learner by adaptively modifying the target vector for mis-classified samples helps further improve a learner's performance.<br /> <a target="_blank" href="https://arxiv.org/pdf/2001.04529">[PDF]</a> <a target="_blank" href="https://github.com/MichiganCOG/LILAC">[Code]</a> </p> 
         <img src="images/lilac_main.png">
+        <br />
 
         <h3> A Geometric Online Adaptive approach to OSFS</h3>
         <p style="text-align:justify"> Feature selection is one of many common and simple approaches to dimensionality reduction. However, until recently prior works have focused on streaming feature selection(OSFS), with the assumption that data from all samples remain available throughout, as the closest approximation to real-world problems. In GOA, we introduce the Online Streaming Feature Selection with Streaming Samples (OSFS-SS) as a natural extension to OSFS, where both samples and features are streamed. To solve OSFS-SS and its simpler subset OSFS, we introduce the Geometric Online Adaptive(GOA) approach which currently acheives state-of-the-art performance on both these areas while using an equivalent or lower number of features than existing methods. <br /> <a target="_blank" href="https://arxiv.org/abs/1910.01182">[PDF]</a> <a target="_blank" href="https://github.com/MichiganCOG/GOA">[Code]</a> </p> 
         <img src="images/goa_main.png">
+        <br />
 
         <h3> Temporal Blocks Dataset: An empirical analysis of CNNs' temporal modelling capabilities</h3>
         <p style="text-align:justify"> The evolution of CNNs from image-based designs to video-centric architectures has marked a tremendous improvement in performance over applications liek activity recognition, video summarization and object tracking. However, a critical element of this evolution is their ability to handle the temporal dimension. Using controlled synthetic baseline, we try actively characterizing different CNN architectures' ability to capture time in videos. We highlight the core functionalities and deficiencies of each deep network model by testing for direction of time, spatiotemporal motion, memory decay and dataset bias.<br /> <a target="_blank" href="https://arxiv.org/">[Broken PDF]</a> <a target="_blank" href="https://github.com/MichiganCOG/">[Broken Code]</a> </p> 
         <img src="images/tbd_main.png">
+        <br />
 
         <h3> T-RECS: Training for Rate-Invariance Embedding by Controlling Speed</h3>
         <p style="text-align:justify"> CNNs are not robust in handling speed variations in input videos, an important security flaw. In T-RECS, we design a simple preprocessing methodology to improve robustness to input speed variations across multiple CNN architectures. Further, in analyzing different CNN architectures, we clearly observe the influence that atomic CNN modules like 3D convolution, LSTMs and others, have on their ability to handle speed variations.<br /> <a target="_blank" href="https://arxiv.org/abs/1803.08094">[PDF]</a> <a target="_blank" href="https://github.com/MichiganCOG/T-RECS">[Code]</a> </p> 
@@ -65,7 +71,7 @@
         <h3>ViP: Video Platform for Recognition and Detection in PyTorch</h3>
         <p  style="text-align:justify">The ever expanding domain of video-based deep learning contains a number of distinct problem branches like action recognition, object tracking, and many more. By developing a video-specific platform that could help leverage ideas from multiple such branches, we believe that research can expand beyond one problem domain. Hence, we deployed a pytorch-based video platform that can handle any image- or video-based problem domain with minimal changes. It includes strong bookkeeping, mimics large mini-batch computations on low memory systems while including a large suite of video-specific preprocessing functions. <br/> <a target="_blank" href="https://arxiv.org/pdf/1910.02793.pdf">[PDF]</a> <a target="_blank" href="https://github.com/MichiganCOG/ViP">[Code]</a> </p>
         <img src="images/vip_main.png">
-      
+        <br />      
         <h3>M-PACT: Michigan Platform for Activity Classification in Tensorflow</h3>
         <p  style="text-align:justify"> In the interest of deploying an activity recognition framework to aid reproducible research, quick prototyping and reduce time consumed by unnecessary pipeline development we developed M-PACT. It contains a unique video-specific preprocessing pipeline that allows the end-user to request a variety of clip combinations from videos with a small number of arguments.<br /> <a target="_blank" href="https://arxiv.org/abs/1804.05879">[PDF]</a> <a target="_blank" href="https://github.com/MichiganCOG/M-PACT">[Code]</a> </p>
         <img src="images/m_pact_main.png">
