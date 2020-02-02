@@ -1,10 +1,17 @@
+html {
+  height: 100%;
+}
 body {
-  background-color: #fff;
-  padding:50px;
+  background-color: #587abc;
+  background-image: url("../images/60-lines.png");
+  padding: 50px 50px 0px 50px;
   font: 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   color:#595959;
+  text-align:center;
   font-weight:400;
+  height:100%;
 }
+
 .avatar {
   position: relative;
   width: 250px;
@@ -17,7 +24,6 @@ body {
 
 .avatar img {
   width: 100%;
-  border-radius: 20%;
   height: auto;
 }
 
@@ -27,7 +33,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   color:#222;
-  margin:0 0 20px;
+  margin:25px 0 10px;
 }
 
 p, ul, ol, table, pre, dl {
@@ -61,7 +67,7 @@ a {
 a:hover {
   color:#069;
 }
-
+ 
 a small {
   font-size:11px;
   color:#777;
@@ -74,8 +80,13 @@ a:hover small {
 }
 
 .wrapper {
-  width:860px;
-  margin:0 auto;
+  background-color:#fff;
+  width:85%;
+  max-width:1000px;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 50px;
+  text-align:left;
 }
 
 blockquote {
@@ -120,15 +131,44 @@ th {
 
 img {
   max-width:100%;
+  height: auto;
 }
 
 header {
   width:270px;
   float:left;
-  position:fixed;
+  position:relative;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
+.favicons {
+	vertical-align: middle;
+}
+
+.contact_urls {
+	list-style:none;
+	padding: 10px;
+	margin-top: 15px;
+}
+
+.contact_urls a {
+	margin-bottom: 5px;
+	padding-right: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	text-decoration: none;
+	color: inherit;
+}
+
+.contact_urls li {
+	margin: 5px;
+	white-space: nowrap;
+}
+
+.contact_urls a:hover {
+	text-decoration: underline;
+}
+/*
 header ul {
   list-style:none;
   height:40px;
@@ -187,9 +227,10 @@ header ul a strong {
   display:block;
   color:#222;
 }
+*/
 
 section {
-  width:500px;
+  width:55%;
   float:right;
   padding-bottom:50px;
 }
@@ -264,6 +305,11 @@ footer {
   pre, code {
     word-wrap:normal;
   }
+
+  .avatar_header{
+    text-align:center;
+  }
+
 }
 
 @media print, screen and (max-width: 480px) {
@@ -277,6 +323,10 @@ footer {
 
   header li, header ul li + li + li {
     width:33%;
+  }
+
+  .avatar_header{
+    text-align:center;
   }
 }
 
