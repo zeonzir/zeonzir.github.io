@@ -5,6 +5,24 @@ body {
   color:#595959;
   font-weight:400;
 }
+.avatar {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.avatar img {
+  width: 100%;
+  height: auto;
+}
+
+.avatar_header{
+  text-align:center;
+}
 
 h1, h2, h3, h4, h5, h6 {
   color:#222;
