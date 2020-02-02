@@ -15,7 +15,7 @@ body {
 .avatar {
   position: relative;
   overflow: hidden;
-  border-radius: 50%;
+  border-radius: 30%;
   margin-left: auto;
   margin-right: auto;
 }
