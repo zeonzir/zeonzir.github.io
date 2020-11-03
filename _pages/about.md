@@ -8,6 +8,8 @@ redirect_from:
   - /about.html
 ---
 
+# UNDER CONSTRUCTION
+
 **Deep learning's application to computer vision:** As the true "black box" approach of modern machine learning, I like works that pick apart the inner workings of artificial neural networks to find the root cause of their behaviour. I believe that systematically highlighting what ANNs can and CANNOT do is critical.
 
 **Analysis and development of video-based architectures:** While the underpinning of image-based deep learning has received a lot of attention over the years, such work have not made the leap to video. In making this leap across time, a new dimesionality of possibilities and associated problems have arisen. Hence, my focus has been on fully characterizing neural network architectures w.r.t. their ability to handle time and develop ANNs that utilize all of the available information in videos.
