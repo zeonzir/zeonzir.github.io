@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Madan Ravi Ganesh"
 title_separator          : "-"
 name                     : &name "Madan Ravi Ganesh"
-description              : &description "Computer Vision Research / Gamer / Gastronomist "
+description              : &description "Computer Vision Research / Gamer / Gastronome "
 url                      : https://zeonzir.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "zeonzir/zeonzir.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Madan Ravi Ganesh"
   avatar           : "Profile.jpg"
-  bio              : "Computer Vision Research / Gamer / Gastronomist"
+  bio              : "Computer Vision Research / Gamer / Gastronome"
   location         : "Ann Arbor, Michigan"
   employer         :
   pubmed           : 

@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Conversation Starters"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,7 +8,12 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+**Deep learning's application to computer vision:** As the true "black box" approach of modern machine learning, I like works that pick apart the inner workings of artificial neural networks to find the root cause of their behaviour. I believe that systematically highlighting what ANNs can and CANNOT do is critical.
+
+**Analysis and development of video-based architectures:** While the underpinning of image-based deep learning has received a lot of attention over the years, such work have not made the leap to video. In making this leap across time, a new dimesionality of possibilities and associated problems have arisen. Hence, my focus has been on fully characterizing neural network architectures w.r.t. their ability to handle time and develop ANNs that utilize all of the available information in videos.
+
+**Efficient memory usage in deep learning:** With ANN datasets and parameters spanning millions and billions in number, their applicability in real-world scenarios, often with restrictions on available memory or required throughput, is restricted. In trying to solve this disparity, I emphasize on methods that help reduce the storage/computation of activations, deep network compression, and other relevant areas.
+        </section>
 
 A data-driven personal website
 ======
