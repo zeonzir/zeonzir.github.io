@@ -44,12 +44,6 @@ Talks
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
-#Teaching
-#======
-#  <ul>{% for post in site.teaching %}
-#    {% include archive-single-cv.html %}
-#  {% endfor %}</ul>
-  
 Achievements and Service
 ======
 * Placed 1st forimplementation and presentation of paper titled: 'Decoupled Active Contours for Boundary Extraction' and its extension to color images
