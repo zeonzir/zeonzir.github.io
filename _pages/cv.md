@@ -44,12 +44,14 @@ Talks
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+#Teaching
+#======
+#  <ul>{% for post in site.teaching %}
+#    {% include archive-single-cv.html %}
+#  {% endfor %}</ul>
   
-Service and leadership
+Achievements and Service
 ======
-* Currently signed in to 43 different slack teams
+* Placed 1st forimplementation and presentation of paper titled: 'Decoupled Active Contours for Boundary Extraction' and its extension to color images
+* Winner of 3rd place at the University of Michigan's Engineering Research Symposium 2021, in Advanced Graduate Student Research session
+* Volunteered at “Xplore Engineering summer camp" and technical symposium held at National Instruments, "NIBTech" 
