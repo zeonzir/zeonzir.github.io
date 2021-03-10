@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -11,30 +11,26 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.E. in Electronics and Communications, M.S. Ramaiah Institute of Technology, 2013
+* Ph.D in Computer Vision, ECE, University of Michigan, 2022 (expected)
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* January - June 2013: Intern
+  * National Instruments (Bangalore) 
+  * Duties included: Development of LabVIEW module to automate analysis of product quality and features susceptible to bugs 
+  * Group Manager: Praveen Madubushi
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2013 - 2014: Software Engineer 
+  * National Instruments (Bangalore)
+  * Duties included: Bug detection in RFSA-GUIs and coordination of RFSA testing across multiple teams and time-zones
+  * Group Manager: Praveen Madubushi
   
-Skills
+Technical Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* <b> Computer Languages: </b> C++ (basics), MATLAB, LabVIEW, and Python
+* <b> Deep Learning: </b> Caffe, Tensorflow, PyTorch and Theano
+* <b> Software and Tools: </b> LaTeX, Excel and Arduino
 
 Publications
 ======
