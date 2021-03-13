@@ -9,16 +9,11 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* B.E. in Electronics and Communications, M.S. Ramaiah Institute of Technology, 2013
-* Ph.D in Computer Vision, ECE, University of Michigan, 2022 (expected)
-
 Work experience
 ======
 * January - June 2013: Intern
   * National Instruments (Bangalore) 
-  * Duties included: Development of LabVIEW module to automate analysis of product quality and features susceptible to bugs 
+  * Duties included: Development of LabVIEW module to automate analysis of product quality and highlight features susceptible to bugs 
   * Group Manager: Praveen Madubushi
 
 * 2013 - 2014: Software Engineer 
@@ -26,11 +21,15 @@ Work experience
   * Duties included: Bug detection in RFSA-GUIs and coordination of RFSA testing across multiple teams and time-zones
   * Group Manager: Praveen Madubushi
   
-Technical Skills
+* 2015 - Present: Graduate Student Research Assistant 
+  * University of Michigan (Ann Arbor)
+  * Primary Focus: Neural network pruning, curriculum learning, application of information theoretic measures and video-based deep learning 
+  * Advisors: Dr. Jason J. Corso and Dr. Salimeh Yasaei Sekeh 
+
+Education
 ======
-* <b> Computer Languages: </b> C++ (basics), MATLAB, LabVIEW, and Python
-* <b> Deep Learning: </b> Caffe, Tensorflow, PyTorch and Theano
-* <b> Software and Tools: </b> LaTeX, Excel and Arduino
+* B.E. in Electronics and Communications, M.S. Ramaiah Institute of Technology, 2013
+* Ph.D in Computer Vision, ECE, University of Michigan, 2022 (expected)
 
 Publications
 ======
@@ -44,8 +43,17 @@ Talks
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
-Achievements and Service
+
+Technical Skills
 ======
-* Placed 1st forimplementation and presentation of paper titled: 'Decoupled Active Contours for Boundary Extraction' and its extension to color images
-* Winner of 3rd place at the University of Michigan's Engineering Research Symposium 2021, in Advanced Graduate Student Research session
+* <b> Language: </b> English (Proficient), Tamil (Native), Hindi (Fluent), Kannada (Fluent) 
+* <b> Computer Languages: </b> C++ (basics), MATLAB, LabVIEW, and Python
+* <b> Deep Learning: </b> Caffe, Tensorflow, PyTorch and Theano
+* <b> Software and Tools: </b> LaTeX, Excel and Arduino
+
+Achievements and Professional Activities
+======
+* Winner of 1st prize for implementation and presentation of paper titled: 'Decoupled Active Contours for Boundary Extraction' and its extension to color images
+* Winner of 3rd place at the University of Michigan's Engineering Research Symposium 2021, in the Advanced Graduate Student Research session
+* Reviewer at ECCV 2020, BMVC 2020, ICML 2018, CVPR 2018, Mathematical Problems in Engineering
 * Volunteered at “Xplore Engineering summer camp" and technical symposium held at National Instruments, "NIBTech" 
