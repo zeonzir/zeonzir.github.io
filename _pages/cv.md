@@ -15,18 +15,18 @@ Work experience
 ======
 * January - June 2013: Intern
   * National Instruments (Bangalore) 
-  * Duties included: Development of LabVIEW module to automate analysis of product quality and highlight features susceptible to bugs 
-  * Group Manager: Praveen Madubushi
+  * <i>Duties included</i>: Development of LabVIEW module to automate analysis of product quality and highlight features susceptible to bugs 
+  * <i>Group Manager</i>: Praveen Madubushi
 
 * 2013 - 2014: Software Engineer 
   * National Instruments (Bangalore)
-  * Duties included: Bug detection in RFSA-GUIs and coordination of RFSA testing across multiple teams and time-zones
-  * Group Manager: Praveen Madubushi
+  * <i>Duties included</i>: Bug detection in RFSA-GUIs and coordination of RFSA testing across multiple teams and time-zones
+  * <i>Group Manager</i>: Praveen Madubushi
   
 * 2015 - Present: Graduate Student Research Assistant 
   * University of Michigan (Ann Arbor)
-  * Primary Focus: Neural network pruning, curriculum learning, application of information theoretic measures and video-based deep learning 
-  * Advisors: Dr. Jason J. Corso and Dr. Salimeh Yasaei Sekeh 
+  * <i>Primary Focus</i>: Neural network pruning, curriculum learning, application of information theoretic measures and video-based deep learning 
+  * <i>Advisors</i>: Dr. Jason J. Corso and Dr. Salimeh Yasaei Sekeh 
 
 Education
 ======
@@ -55,7 +55,7 @@ Technical Skills
 
 Achievements and Professional Activities
 ======
-* Winner of 1st prize for implementation and presentation of paper titled: 'Decoupled Active Contours for Boundary Extraction' and its extension to color images
-* Winner of 3rd place at the University of Michigan's Engineering Research Symposium 2021, in the Advanced Graduate Student Research session
-* Reviewer at ECCV 2020, BMVC 2020, ICML 2018, CVPR 2018, Mathematical Problems in Engineering
-* Volunteered at “Xplore Engineering summer camp" and technical symposium held at National Instruments, "NIBTech" 
+* <b>Winner</b> of 1st prize for implementation and presentation of paper titled: 'Decoupled Active Contours for Boundary Extraction' and its extension to color images
+* <b>Winner</b> of 3rd place at the University of Michigan's Engineering Research Symposium 2021, in the Advanced Graduate Student Research session
+* <b>Reviewer</b> at ECCV 2020, BMVC 2020, ICML 2018, CVPR 2018, Mathematical Problems in Engineering
+* <b>Volunteered</b> at “Xplore Engineering summer camp" and technical symposium held at National Instruments, "NIBTech" 
